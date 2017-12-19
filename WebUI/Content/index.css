@@ -1,0 +1,194 @@
+﻿input[type=text].sec-txt {
+    line-height: 3.2em;
+    width: 1000px;
+    font-size: 20px;
+    background-color: #eee;
+    position: absolute;
+    top: 100px;
+}
+
+
+/*#pinyin_res {
+    line-height: 3.2em;
+    width: 1000px;
+    font-size: 20px;
+    background-color: #eee;
+    position: absolute;
+    top: 300px;
+}*/
+
+.seg_res {
+    line-height: 3em;
+    width: 1000px;
+    /*min-height: 500px;
+    max-height: 1200px;*/
+    font-size: 20px;
+    background-color: #eee;
+    position: absolute;
+    top: 300px;
+}
+
+#a_res {
+    line-height: 3em;
+    width: 1000px;
+    font-size: 20px;
+    background-color: #eee;
+    position: absolute;
+    top: 550px;
+}
+
+.pre_guide {
+    line-height: 2em;
+    width: 1000px;
+    font-size: 14px;
+    background-color: #eee;
+    position: absolute;
+    top: 300px;
+}
+
+input[type="button"].sec-btn {
+    font-size: 18px
+}
+
+input[type="button"].sec-btn {
+    cursor: pointer
+}
+
+.ad-top_close, .sec-tit, .sec-filter, .sec-filter li a, .sec-av, .sec-av:hover, input[type="button"].sec-btn, .sec-hot, .sec-hot_bd, .nav-quick_btn, .qknav_btn, .appload-fixed, .appload-fixed .close:hover {
+    color: #fff
+}
+
+
+
+
+
+
+
+input[type="button"].sec-btn {
+    height: 3.2em;
+    line-height: 3.2em;
+    width: 6.4em;
+    position: absolute;
+    top: 200px
+}
+
+    input[type="button"].sec-btn:hover, input[type="button"].sec-btn:active {
+        background-color: #00FFFF
+    }
+
+.sec-filter li:hover a, .sec-filter li.cur:hover a, .nav-quick_icon, .list-register_more > .btn-bd:hover {
+    color: #1acb6d
+}
+
+.sec-filter .option-cur, .sec-filter li.cur, .sec-filter li:hover, .sec-filter li.cur:hover {
+    color: #17b561
+}
+
+.nav-quick_btn, .qknav_btn {
+    background-color: #1acb6d
+}
+
+    .nav-quick_btn:hover, .qknav_btn:hover {
+        background-color: #18af6b
+    }
+
+input[type="button"].sec-btn, .slide-ad1_page > i.active {
+    background-color: #00BBFF
+}
+
+.ad-top_close, .sec-filter .option-cur, .sec-filter li, input[type="button"].sec-btn, .sec-brand > li, .sec-adr .option-cur, .appload-fixed .close, .tabtit-area_item {
+    cursor: pointer
+}
+
+.ad-top_close, .sec-tit, .sec-filter .option-cur, input[type="button"].sec-btn, .sec-adr .option-cur, .sec-hot, .nav-quick, .nav-quick_btn, .qknav_btn, .list-fclaim_img, .tabtit-area, .area-search > a {
+    text-align: center
+}
+
+.ad-top_close, .sec-tit, .sec-filter, .sec-filter li a, .sec-av, .sec-av:hover, input[type="button"].sec-btn, .sec-hot, .sec-hot_bd, .nav-quick_btn, .qknav_btn, .appload-fixed, .appload-fixed .close:hover {
+    color: #fff
+}
+/*.ad-top_close, input[type="button"].sec-btn, .sec-adr:before, .sec-adr .city-cur:after, .qknav_img, .list-fclaim_hd > span, .appload-fixed, .list-register .list-register_more {
+    right: 0
+}*/
+
+/*input[type="button"].sec-btn, .sec-adr, .appload-fixed, .appload-fixed .img {
+bottom: 0
+}*/
+/*.ad-top_close, input[type="button"].sec-btn, .sec-brand, .sec-adr, .sec-adr:before, .sec-adr .city-cur:after, .qknav_img, .list-fclaim_hd > span, .appload-fixed .img, .appload-fixed .close, .slide-ad1_page, .list-register .list-register_more, .tabtit-area_item.current:after {
+    position: absolute
+}*/
+
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    padding: 0;
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+    button[disabled], html input[disabled] {
+        cursor: default
+    }
+
+    button::-moz-focus-inner, input::-moz-focus-inner {
+        border: 0;
+        padding: 0
+    }
+
+input {
+    line-height: normal
+}
+
+    input[type="checkbox"], input[type="radio"] {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0
+    }
+
+    input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+        height: auto
+    }
+
+    input[type="search"] {
+        -webkit-appearance: textfield;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box
+    }
+
+        input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none
+        }
+
+input, textarea, button {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    outline: none
+}
+
+    .list-d > li, .list-default > li, .list-shits > li, .list-commlt > li, a, input[type="button"]:hover, input[type="submit"]:hover, .cover_info, .cover_btn, .cover_close, .ft .link a, .sec-adr2 li, .msg-success2 .close, .msg-error2 .close, .msg-warm2 .close, .msg-info2 .close {
+        -webkit-transition: all .25s;
+        transition: all .25s
+    }
+
+    input[type="button"]:active, input[type="submit"]:active {
+        box-shadow: inset 0 0 0.25em rgba(0,0,0,0.25)
+    }
+
+.body-content.global-footer {
+    bottom: 0
+}
