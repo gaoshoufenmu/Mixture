@@ -33,7 +33,7 @@ namespace BigData.ES
                         .NumberOfReplicas(0)
                         .Analysis(ana => ana
                             .Analyzers(al => al
-                                .Standard("std", std => std.MaxTokenLength(1))          // 严格单字符切分
+                                .Standard("sstd", std => std.MaxTokenLength(1))          // 严格单字符切分
                                 .Pattern("sep", sep => sep.Pattern(@"[-\.\|,\s]"))      // 指定字符切分
                                 .Pattern("ascii", asci => asci.Pattern(@"\p{ASCII}"))   // 任意ascii字符切分
                                 )

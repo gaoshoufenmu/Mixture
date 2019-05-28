@@ -1,0 +1,17 @@
+push steps:
+1. Type 'git add .'
+(git status)
+2. Type 'git commit', and then input some commit comments
+3. Type 'git push origin master'
+(git log -p -1)
+
+
+功能分支
+它是为了开发某种特定功能，从Develop分支上面分出来的。开发完成后，要再并入Develop。
+创建一个功能分支：
+git checkout -b feature-x develop
+开发完成后，将功能分支合并到develop分支：
+git checkout develop
+git merge --no-ff feature-x
+删除feature分支：
+git branch -d feature-x
