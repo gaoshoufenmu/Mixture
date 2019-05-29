@@ -1,0 +1,20 @@
+﻿@ATTRIBUTE TV_time cont
+@ATTRIBUTE marry  disc		yes/no
+@ATTRIBUTE job	disc	student/teacher/worker
+@ATTRIBUTE age cont
+
+@train-data
+3	no		student	12
+4	no		student	18
+2	yes		teacher	26
+5	yes		worker	47
+2.5	yes		worker	36
+3.5	no		teacher	29
+4	yes		student	21
+
+@verify-data
+3	no		student	13
+4	no		student	17
+2	yes		teacher	29
+5	yes		teacher	49
+3	yes		worker	30
